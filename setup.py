@@ -13,6 +13,7 @@ setup(
     long_description=open("README.md").read(),
     long_description_content_type="text/markdown",
     author="Favio Asturimac",
+    url="https://github.com/Favio-coder/kopper-lib.git",  # si lo subes a GitHub
     classifiers=[
         "Programming Language :: Python :: 3",
         "License :: OSI Approved :: MIT License",
