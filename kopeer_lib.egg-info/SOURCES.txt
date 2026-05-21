@@ -1,0 +1,15 @@
+README.md
+setup.py
+kopeer/__init__.py
+kopeer/config.py
+kopeer/engine.py
+kopeer/model.py
+kopeer/optimizer.py
+kopeer/utils.py
+kopeer_lib.egg-info/PKG-INFO
+kopeer_lib.egg-info/SOURCES.txt
+kopeer_lib.egg-info/dependency_links.txt
+kopeer_lib.egg-info/not-zip-safe
+kopeer_lib.egg-info/requires.txt
+kopeer_lib.egg-info/top_level.txt
+tests/test_engine.py

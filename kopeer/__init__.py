@@ -1,6 +1,14 @@
-from .model import tutoring_score_vectorized
-from .engine import compute_pairs
-from .optimizer import optimize_weights
+from .engine import PeerTutoringEngine
+from .model import PeerTutoringModel, StudentProfile, LightNeuralNetwork
+from .config import KopeerConfig
 from .utils import normalize_df
 
-__all__ = ["tutoring_score_vectorized", "compute_pairs", "optimize_weights", "normalize_df"]
+__version__ = "0.2.0"
+__all__ = [
+    'PeerTutoringEngine',
+    'PeerTutoringModel', 
+    'StudentProfile',
+    'LightNeuralNetwork',
+    'KopeerConfig',
+    'normalize_df'
+]
