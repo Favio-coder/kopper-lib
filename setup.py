@@ -6,7 +6,7 @@ with open("README.md", "r", encoding="utf-8") as fh:
 
 setup(
     name="kopeer-lib",
-    version="0.2.0",  # Actualiza versión para PyPI
+    version="0.2.1",  # Actualiza versión para PyPI
     packages=find_packages(exclude=["tests", "tests.*"]),
     
     # Dependencias principales
